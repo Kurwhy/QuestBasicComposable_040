@@ -61,7 +61,9 @@ fun BasicCompose(modifier: Modifier = Modifier){
             fontSize = 50.sp,
             color = Color.Red,
             fontWeight = FontWeight.Bold
-        )
+            )
+        Text(text = "Versus",
+            )
     }
 }
 
