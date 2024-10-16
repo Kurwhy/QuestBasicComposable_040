@@ -88,6 +88,10 @@ fun BasicCompose(modifier: Modifier = Modifier){
             fontWeight = FontWeight.ExtraBold
         )
         Text(text = "20220140040",
+            modifier = Modifier,
+            fontSize = 40.sp,
+            color = Color.Black,
+            fontWeight = FontWeight.Thin
         )
     }
 }
