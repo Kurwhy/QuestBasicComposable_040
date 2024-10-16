@@ -76,6 +76,10 @@ fun BasicCompose(modifier: Modifier = Modifier){
                 .size(200.dp)
         )
         Text(text = "Nama",
+            modifier = Modifier,
+            fontSize = 25.sp,
+            color = Color.Black,
+            fontWeight = FontWeight.Bold
         )
     }
 }
