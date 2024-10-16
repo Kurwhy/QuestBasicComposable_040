@@ -70,6 +70,9 @@ fun BasicCompose(modifier: Modifier = Modifier){
                 color = Color.Black,
             )
         )
+        Image(painter = painterResource(id = R.drawable.afc),
+            contentDescription = null,
+        )
     }
 }
 
