@@ -72,6 +72,8 @@ fun BasicCompose(modifier: Modifier = Modifier){
         )
         Image(painter = painterResource(id = R.drawable.afc),
             contentDescription = null,
+            modifier = Modifier
+                .size(200.dp)
         )
     }
 }
