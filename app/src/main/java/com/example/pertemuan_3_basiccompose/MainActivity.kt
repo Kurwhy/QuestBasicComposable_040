@@ -82,6 +82,10 @@ fun BasicCompose(modifier: Modifier = Modifier){
             fontWeight = FontWeight.Bold
         )
         Text(text = "Wahyu Firmansyah",
+            modifier = Modifier,
+            fontSize = 20.sp,
+            color = Color.Red,
+            fontWeight = FontWeight.ExtraBold
         )
     }
 }
