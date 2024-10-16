@@ -93,6 +93,9 @@ fun BasicCompose(modifier: Modifier = Modifier){
             color = Color.Black,
             fontWeight = FontWeight.Thin
         )
+        Image(painter = painterResource(id = R.drawable.wahyu),
+            contentDescription = null,
+        )
     }
 }
 
