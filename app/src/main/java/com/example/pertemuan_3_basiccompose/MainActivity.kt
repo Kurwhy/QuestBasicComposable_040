@@ -95,6 +95,9 @@ fun BasicCompose(modifier: Modifier = Modifier){
         )
         Image(painter = painterResource(id = R.drawable.wahyu),
             contentDescription = null,
+            modifier = Modifier
+                .size(400.dp)
+                .clip(CircleShape)
         )
     }
 }
